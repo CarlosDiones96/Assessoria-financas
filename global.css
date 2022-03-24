@@ -1,0 +1,192 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://imagens.mensagemespirita.com.br/images/uploads/posts_file_foto/ftw-940x-21_habitos_da_pessoas_felizes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    object-fit: contain;
+
+}   
+/*--------------- HEADER ------------------------*/
+header{
+    display: flex;
+    background: white;
+    margin: 50px auto 320px auto;
+    border-radius: 5px;
+}
+
+.site-max-width{ /*tests*/
+    max-width: 1024px;
+}
+
+
+.logo-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    padding: 10px;
+}
+
+.logo-text{
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px gray;
+    letter-spacing: 1px;
+    color:gray;
+}
+
+.logo-img{
+    content: url(images/coins-logo.png);
+    height: 75px;
+    width: 75px;
+}
+
+.main-navigation{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+
+.navigation-ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-item{
+    padding: 6px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: yellow;
+}
+
+.navigation-submenu{
+    list-style-type: none;
+    padding: 2px;
+    position: absolute;
+    overflow: visible;
+    visibility: hidden;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#investimentos-submenu:hover .navigation-submenu{
+    visibility: visible;
+}
+
+.navigation-submenu-item{
+    list-style:none;
+    padding: 4px;
+    background: white;
+}
+
+.navigation-submenu-item:last-of-type{
+    padding-bottom: 10px;
+}
+
+
+.navigation-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+.navigation-submenu-li{
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    font-size: 11px;
+}
+
+
+.controls-container{
+    position: relative;
+    bottom: 280px;
+}
+
+.previous-img, .next-img{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.previous-img:hover, .next-img:hover{
+    background-color: rgba(200, 0, 0, 0.5);
+}
+
+.next-img{
+    float: right;
+}
+
+/*--------------- HEADER ------------------------*/
+
+
+/*--------------- FOOTER ------------------------*/
+footer{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0;
+    background: #5b5b61;
+    margin: 50px auto auto auto;
+    z-index: 20;
+}
+
+.footer-container{
+    background: gray;
+    height: 80%;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-top{
+    height: 70px;
+    background: orange;
+    margin: auto;
+    position: relative;
+    bottom: 30px;
+    border-radius: 5px;
+}
+
+.footer-categories{
+
+}
+
+.footer-copyright{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background: black;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.copyright-text{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+/*--------------- FOOTER ------------------------*/
