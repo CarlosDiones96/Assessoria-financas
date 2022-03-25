@@ -2,15 +2,113 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 main{
-	height: 1000px;
 	width: 100%;
-	border: 1px solid green;
-	background: white;
+	margin: auto;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.element-container{
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.element-container-row{
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.flex-column{
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.flex-row{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+h2.centralized-heading, 
+h3.centralized-heading,
+p.centralized-paragraph{
+	text-align:center;
+}
+
+
+.nowrap{
+	flex-wrap: nowrap;
+}
+
+.nosso-foco-img{
+	width: 50px;
+	height: 50px;
+	background: gray;
+	margin: 10px auto;
+}
+
+.evenly{
+	width: 30%;
+}
+
+.img-number{
+	width: 50px;
+	height: 50px;
+	background: gray;
+}
+
+.planejamento-img{
+	height: 302px;
+	width: 100%;
+	content: url(images/planejamento.jpg);
+}
+
+#planejamento-controles{
+	display: flex;
+	flex-flow: column nowrap;
 	margin: auto;
 }
 
+#nosso-foco{
+	border: 1px solid green; /*test*/
+}
+
+#planejamento{
+	box-sizing: border-box;
+	border: 1px solid green;
+}
+
+#plataforma{
+	border: 1px solid green;
+	height: 100px; /*test*/
+}
+
+#depoimentos{
+	border: 1px solid green;
+	height: 100px; /*test*/
+}
+
+#parceiros{
+	border: 1px solid green;
+	height: 100px; /*test*/
+}
+
+.planejamento-conteudo{
+	box-sizing: border-box;
+	padding: 1.5rem;
+	height: 100%;
+}
+
+.planejamento-conteudo > button {
+	margin: 1rem 0;
+	font-size: 1.2rem;
+	padding: .4rem .8rem;
+}
 /*--------------- CAROUSEL ------------------------*/
 
 /*--------------- CAROUSEL ------------------------*/
