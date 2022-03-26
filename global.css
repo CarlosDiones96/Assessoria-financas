@@ -1,3 +1,11 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -26,7 +34,7 @@ header{
 
 
 .site-max-width{ /*tests*/
-    max-width: 1024px;
+    max-width: 1200px;
 }
 
 

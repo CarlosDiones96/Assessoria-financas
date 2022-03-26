@@ -1,3 +1,11 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -18,6 +26,8 @@ main{
 .font-red { color: red;}
 .font-blue { color: blue;}
 .font-green{ color: green;}
+
+.border{ border: 2px solid orangered;}
 
 .element-container{
 	width: 100%;
@@ -90,6 +100,15 @@ h3{ font-size: 2rem;}
 	justify-content: space-around;
  }
 
+.justify-start{
+	justify-content: flex-start;
+}
+
+.justify-between{
+	justify-content: space-between;
+}
+
+
 .planejamento-img{
 	height: 302px;
 	width: 100%;
@@ -136,6 +155,7 @@ h3{ font-size: 2rem;}
 }
 #plataforma-img-2{
 	content: url(images/renda-variavel.jpg);
+	margin-top: 30px;
 }
 #plataforma-img-4{
 	content: url(images/fundos-imobiliarios.jpg);
@@ -145,11 +165,12 @@ h3{ font-size: 2rem;}
 }
 #plataforma-img-5{
 	content: url(images/titulos-publicos.jpg);
+	margin-top: 30px;
 }
 
 #depoimentos{
-	border: 1px solid green;
-	height: 100px; /*test*/
+	border: 1px solid fuchsia;
+
 }
 
 #parceiros{
@@ -168,6 +189,29 @@ h3{ font-size: 2rem;}
 	font-size: 1.2rem;
 	padding: .4rem .8rem;
 }
+
+#depoimentos-content > article > h3 + p{
+	display: inline-block;
+	width:700px
+}
+
+#depoimentos-content > article.visible{
+	display: flex;
+}
+
+#depoimentos-content > article {
+	display:none;
+}
+
+#depoimentos-content > article {
+	padding: 0 1rem 1rem;
+	border-top: 1px dashed gray;
+}
+
+#depoimentos-content > :first-child{
+	border:none;
+}
+
 /*--------------- CAROUSEL ------------------------*/
 
 /*--------------- CAROUSEL ------------------------*/
