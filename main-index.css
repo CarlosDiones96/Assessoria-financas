@@ -7,11 +7,21 @@ main{
 	margin: auto;
 	display: flex;
 	flex-flow: column nowrap;
+	background: white; /*test*/
 }
+
+
+/* colors for debugging*/
+.bg-red { background: red;}
+.bg-blue { background: blue;}
+.bg-green{background:green;}
+.font-red { color: red;}
+.font-blue { color: blue;}
+.font-green{ color: green;}
 
 .element-container{
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	display: flex;
 	flex-flow: column wrap;
 }
@@ -26,6 +36,10 @@ main{
 .flex-column{
 	display: flex;
 	flex-flow: column wrap;
+}
+
+.flex {
+	display:flex;
 }
 
 .flex-row{
@@ -62,6 +76,20 @@ p.centralized-paragraph{
 	background: gray;
 }
 
+h3{ font-size: 2rem;}
+
+.justify-center{
+	justify-content:center;
+}
+
+.align-center{
+	align-items: center;
+}
+
+.justify-around{
+	justify-content: space-around;
+ }
+
 .planejamento-img{
 	height: 302px;
 	width: 100%;
@@ -84,8 +112,39 @@ p.centralized-paragraph{
 }
 
 #plataforma{
-	border: 1px solid green;
-	height: 100px; /*test*/
+	border: 1px solid purple;
+	box-sizing:border-box;
+}
+
+#plataforma-img-1,
+#plataforma-img-2,
+#plataforma-img-4,
+#plataforma-img-5{
+	width:269px;
+	height:180px;
+	background: orange;
+}
+
+#plataforma-img-3{
+	width:571px;
+	height:390px;
+	background: orange;
+}
+
+#plataforma-img-1{
+	content: url(images/renda-fixa.jpg);
+}
+#plataforma-img-2{
+	content: url(images/renda-variavel.jpg);
+}
+#plataforma-img-4{
+	content: url(images/fundos-imobiliarios.jpg);
+}
+#plataforma-img-3{
+	content: url(images/fundos-investimento.jpg);
+}
+#plataforma-img-5{
+	content: url(images/titulos-publicos.jpg);
 }
 
 #depoimentos{

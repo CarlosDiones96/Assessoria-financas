@@ -7,7 +7,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(https://imagens.mensagemespirita.com.br/images/uploads/posts_file_foto/ftw-940x-21_habitos_da_pessoas_felizes.jpg);
+    /* background-image: url(https://imagens.mensagemespirita.com.br/images/uploads/posts_file_foto/ftw-940x-21_habitos_da_pessoas_felizes.jpg); */
+    background: rgb(231, 217, 179);
     background-repeat: no-repeat;
     background-size: 100% 500px;
     object-fit: contain;
@@ -17,7 +18,7 @@ body{
 header{
     display: flex;
     background: white;
-    margin: 50px auto 320px auto;
+    margin: 50px auto 0 auto;
     border-radius: 5px;
     box-shadow: 1px 1px 5px gray;
     height:100px;
@@ -116,7 +117,7 @@ header{
 
 .controls-container{
     position: relative;
-    bottom: 280px;
+    top: 220px;
 }
 
 .previous-img, .next-img{
@@ -138,6 +139,20 @@ header{
 
 .next-img{
     float: right;
+}
+
+.carousel{
+    background: red;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+#img-1{
+    height:100%;
+    width: 100%;
+    background-image: url(images/planejamento.jpg); /*test*/
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 /*--------------- HEADER ------------------------*/
