@@ -175,7 +175,6 @@ h3{ font-size: 2rem;}
 
 #parceiros{
 	border: 1px solid green;
-	height: 100px; /*test*/
 }
 
 .planejamento-conteudo{
@@ -212,6 +211,80 @@ h3{ font-size: 2rem;}
 	border:none;
 }
 
+#parceiros-img-1,
+#parceiros-img-2,
+#parceiros-img-3,
+#parceiros-img-4,
+#parceiros-img-5,
+#parceiros-img-6,
+#parceiros-img-7,
+#parceiros-img-8,
+#parceiros-img-9,
+#parceiros-img-10,
+#parceiros-img-11,
+#parceiros-img-12{
+	height:100px;
+	width:210px;
+	background: lightgreen;
+	border:1px solid gray;
+	box-sizing: border-box;
+}
+
+#parceiros-img-1{
+	content: url(images/parceiros/appia-capital.jpg);
+}
+
+#parceiros-img-2{
+	content: url(images/parceiros/atico.jpg);
+}
+
+#parceiros-img-3{
+	content: url(images/parceiros/bbm-investimentos.jpg);
+}
+
+#parceiros-img-4{
+	content: url(images/parceiros/btgpactual.jpg);
+}
+
+#parceiros-img-5{
+	content: url(images/parceiros/canvas-capital.jpg);
+}
+
+#parceiros-img-6{
+	content: url(images/parceiros/claritas.jpg);
+}
+
+#parceiros-img-7{
+	content: url(images/parceiros/deutsche-bank.jpg);
+}
+
+#parceiros-img-8{
+	content: url(images/parceiros/franklin-templeton-investments.jpg);
+}
+
+#parceiros-img-9{
+	content: url(images/parceiros/jpmorgan.jpg);
+}
+
+#parceiros-img-10{
+	content: url(images/parceiros/parceiro-sulamerica.jpg);
+}
+
+#parceiros-img-11{
+	content: url(images/parceiros/patrimonial.jpg);
+}
+
+#parceiros-img-12{
+	content: url(images/parceiros/votorantim.jpg);
+}
+
+#parceiros > div > div{
+	display: none;
+}
+
+#parceiros > div > div.visible{
+	display: flex;
+}
 /*--------------- CAROUSEL ------------------------*/
 
 /*--------------- CAROUSEL ------------------------*/
