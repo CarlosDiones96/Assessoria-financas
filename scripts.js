@@ -36,22 +36,22 @@ $("#parceiros-btn3").on("click", function(){
 });
 
 // Interação área de planejamento
-$("#planejamento-btn1").on("click", function(){
-    $("#planejamento1").addClass("visible");
-    $("#planejamento2, #planejamento3, #planejamento4").removeClass("visible");
+$(".planejamento-btn1").on("click", function(){
+    $(".planejamento1").addClass("visible");
+    $(".planejamento2, .planejamento3, .planejamento4").removeClass("visible");
 });
 
-$("#planejamento-btn2").on("click", function(){
-    $("#planejamento2").addClass("visible");
-    $("#planejamento1, #planejamento3, #planejamento4").removeClass("visible");
+$(".planejamento-btn2").on("click", function(){
+    $(".planejamento2").addClass("visible");
+    $(".planejamento1, .planejamento3, .planejamento4").removeClass("visible");
 });
 
-$("#planejamento-btn3").on("click", function(){
-    $("#planejamento3").addClass("visible");
-    $("#planejamento1, #planejamento2, #planejamento4").removeClass("visible");
+$(".planejamento-btn3").on("click", function(){
+    $(".planejamento3").addClass("visible");
+    $(".planejamento1, .planejamento2, .planejamento4").removeClass("visible");
 });
 
-$("#planejamento-btn4").on("click", function(){
-    $("#planejamento4").addClass("visible");
-    $("#planejamento1, #planejamento2, #planejamento3").removeClass("visible");
+$(".planejamento-btn4").on("click", function(){
+    $(".planejamento4").addClass("visible");
+    $(".planejamento1, .planejamento2, .planejamento3").removeClass("visible");
 });

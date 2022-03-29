@@ -92,6 +92,10 @@ h3{ font-size: 2rem;}
 	justify-content:center;
 }
 
+.justify-evenly{
+	justify-content: space-evenly;
+}
+
 .align-center{
 	align-items: center;
 }
@@ -108,26 +112,29 @@ h3{ font-size: 2rem;}
 	justify-content: space-between;
 }
 
-
 .planejamento-img{
 	height: 302px;
 	width: 100%;
+	border-left:3em solid lightblue;
 	content: url(images/planejamento.jpg);
 }
 
-#planejamento-controles{
-	display: flex;
-	flex-flow: column nowrap;
-	margin: auto;
-	background:yellow;
-	width:12px;
+.bd-right-3em{
+	border-right:3em solid lightblue;
 }
 
-#planejamento-controles button{
+.planejamento-controles{
+	display: flex;
+	flex-flow: row nowrap;
+	margin:auto;
+	background:yellow;
+}
+
+.planejamento-controles button{
 	max-width:10px;
 }
 
-#planejamento-itens > div{
+.planejamento-itens > div{
 	width:60%;
 }
 

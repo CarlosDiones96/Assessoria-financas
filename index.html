@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="main-index.css">
@@ -25,14 +27,16 @@
 -->
 
 <body>
-    <header class="site-max-width"> <!-- maximum width for all containers on the page -->
+    <header class="site-max-width">
+        <!-- maximum width for all containers on the page -->
         <!-- header -->
         <section class="logo-container">
             <img class="logo-img">
             <span class="logo-text">Assessoria financeira</span>
         </section>
         <nav class="main-navigation">
-            <ul class="navigation-ul"><!-- navigation -->
+            <ul class="navigation-ul">
+                <!-- navigation -->
                 <li class="navigation-item">
                     <a class="navigation-link" href="#">Início</a>
                 </li>
@@ -44,7 +48,8 @@
                 </li>
                 <li class="navigation-item">
                     <a id="investimentos-submenu" class="navigation-link" href="#">Investimentos</a>
-                    <ul id="hidden-submenu" class="navigation-submenu"><!-- submenu -->
+                    <ul id="hidden-submenu" class="navigation-submenu">
+                        <!-- submenu -->
                         <li class="navigation-submenu-item">
                             <a class="navigation-submenu-li" href="#">Renda fixa</a>
                         </li>
@@ -76,91 +81,146 @@
                 </li>
             </ul><!-- navigation -->
         </nav>
-           
+
     </header><!-- header -->
-    
+
     <section class="controls-container">
-        <button class="previous-img"><</button>
-        <button class="next-img">></button>
+        <button class="previous-img">
+            &lt;</button>
+        <button class="next-img">&gt;</button>
     </section>
 
-     <section class="carousel"> <!-- .carousel -->
-                <span class="carousel-previous"></span>
-                <img id="img-1" class="carousel-img">
-                <img id="img-2" class="carousel-img">
-                <img id="img-3" class="carousel-img">
-                <span class="carousel-next"></span>
-            </section><!-- .carousel -->
+    <section class="carousel">
+        <!-- .carousel -->
+        <span class="carousel-previous"></span>
+        <img id="img-1" class="carousel-img">
+        <img id="img-2" class="carousel-img">
+        <img id="img-3" class="carousel-img">
+        <span class="carousel-next"></span>
+    </section><!-- .carousel -->
 
     <!-- -------------------------------------------------------------------------------------->
-    <main class="site-max-width"><!-- main -->
-        <section id="nosso-foco" class="element-container"> <!-- nosso foco -->
+    <main class="site-max-width">
+        <!-- main -->
+        <section id="nosso-foco" class="element-container">
+            <!-- nosso foco -->
             <div class="flex-column">
                 <h2 class="centralized-heading">Nosso <span class="bold">Foco</span></h2>
-                <p class="centralized-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium illum perspiciatis soluta!</p>
+                <p class="centralized-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+                    illum perspiciatis soluta!</p>
             </div>
             <div class="flex-row nowrap" id="diagnostico">
                 <div class="flex-column evenly">
                     <img class="nosso-foco-img">
                     <div class="flex-row">
-                    <h3 class="centralized-heading">Diagnóstico</h3>
-                    <p class="centralized-paragraph">Inventore incidunt maiores, modi delectus facilis veritatis voluptate rem nemo eum impedit ad vel ipsa sapiente. Dolorem dignissimos laborum similique repellat minus.</p>
+                        <h3 class="centralized-heading">Diagnóstico</h3>
+                        <p class="centralized-paragraph">Inventore incidunt maiores, modi delectus facilis veritatis
+                            voluptate rem nemo eum impedit ad vel ipsa sapiente. Dolorem dignissimos laborum similique
+                            repellat minus.</p>
                     </div>
                 </div>
                 <div class="flex-column evenly">
                     <img class="nosso-foco-img">
                     <div class="flex-row">
-                    <h3 class="centralized-heading">Segurança financeira</h3>
-                    <p class="centralized-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore incidunt maiores. Dolorem dignissimos laborum similique repellat minus.</p>
+                        <h3 class="centralized-heading">Segurança financeira</h3>
+                        <p class="centralized-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Inventore incidunt maiores. Dolorem dignissimos laborum similique repellat minus.</p>
                     </div>
                 </div>
                 <div class="flex-column evenly">
                     <img class="nosso-foco-img">
                     <div class="flex-row">
-                    <h3 class="centralized-heading">Rentabilidade</h3>
-                    <p class="centralized-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <h3 class="centralized-heading">Rentabilidade</h3>
+                        <p class="centralized-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                     </div>
                 </div>
             </div>
         </section> <!-- nosso foco -->
-        <section id="planejamento" class="element-container-row"> <!-- planejamento -->
+        <section id="planejamento" class="element-container-row flex-row justify-evenly">
+            <!-- planejamento -->
             <div class="img-container">
                 <img class="planejamento-img">
             </div>
             <div id="planejamento-itens" class="flex-column">
-                <div id="planejamento1" class="planejamento-conteudo visible bg-green">
-                    <img class="img-number">
-                    <h3>Conhecer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio.</p>
-                    <button>Saiba mais</button>
-                </div>
+                <div id="planejamento1" class="planejamento-conteudo visible flex bd-right-3em">
+                    <!-- #planejamento1 -->
+                    <div class="flex-column>
+                        <img class="img-number">
+                        <h3>Conhecer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio.</p>
+                        <button>Saiba mais</button>
+                    </div>
+                    <div>
+                        <div class="planejamento-controles flex-row justify-center">
+                            <!-- colocar em position relative por cima dos itens -->
+                            <button class="planejamento-btn1">1</button>
+                            <button class="planejamento-btn2">2</button>
+                            <button class="planejamento-btn3">3</button>
+                            <button class="planejamento-btn4">4</button>
+                        </div>
+                    </div>
+                </div><!-- #planejamento1 -->
                 <div id="planejamento2" class="planejamento-conteudo bg-green">
-                    <img class="img-number">
-                    <h3>Planejar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit amet.</p>
-                    <button>Saiba mais</button>
-                </div>
+                    <!-- #planejamento2 -->
+                    <div>
+                        <img class="img-number">
+                        <h3>Planejar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit
+                            amet.</p>
+                        <button>Saiba mais</button>
+                    </div>
+                    <div>
+                        <div class="planejamento-controles">
+                            <!-- colocar em position relative por cima dos itens -->
+                            <button class="planejamento-btn1">1</button>
+                            <button class="planejamento-btn2">2</button>
+                            <button class="planejamento-btn3">3</button>
+                            <button class="planejamento-btn4">4</button>
+                        </div>
+                    </div>
+                </div><!-- #planejamento2 -->
                 <div id="planejamento3" class="planejamento-conteudo bg-blue">
-                    <img class="img-number">
-                    <h3>Aplicar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, esse!</p>
-                    <button>Saiba mais</button>
-                </div>
+                    <!-- #planejamento3 -->
+                    <div>
+                        <img class="img-number">
+                        <h3>Aplicar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit,
+                            amet consectetur adipisicing elit. Error, esse!</p>
+                        <button>Saiba mais</button>
+                    </div>
+                    <div>
+                        <div class="planejamento-controles">
+                            <!-- colocar em position relative por cima dos itens -->
+                            <button class="planejamento-btn1">1</button>
+                            <button class="planejamento-btn2">2</button>
+                            <button class="planejamento-btn3">3</button>
+                            <button class="planejamento-btn4">4</button>
+                        </div>
+                    </div>
+                </div><!-- #planejamento3 -->
                 <div id="planejamento4" class="planejamento-conteudo bg-red">
-                    <img class="img-number">
-                    <h3>Acompanhar</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit.</p>
-                    <button>Saiba mais</button>
-                </div>
-                <div id="planejamento-controles"><!-- colocar em position relative por cima dos itens -->
-                    <button id="planejamento-btn1">1</button>
-                    <button id="planejamento-btn2">2</button>
-                    <button id="planejamento-btn3">3</button>
-                    <button id="planejamento-btn4">4</button>
-                </div>
+                    <!-- #planejamento4 -->
+                    <div>
+                        <img class="img-number">
+                        <h3>Acompanhar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit.
+                        </p>
+                        <button>Saiba mais</button>
+                    </div>
+                    <div>
+                        <div class="planejamento-controles">
+                            <!-- colocar em position relative por cima dos itens -->
+                            <button class="planejamento-btn1">1</button>
+                            <button class="planejamento-btn2">2</button>
+                            <button class="planejamento-btn3">3</button>
+                            <button class="planejamento-btn4">4</button>
+                        </div>
+                    </div>
+                </div><!-- #planejamento4 -->
             </div>
         </section><!-- planejamento -->
-        <section id="plataforma" class="element-container"> <!-- plataforma -->
+        <section id="plataforma" class="element-container">
+            <!-- plataforma -->
             <div class="flex-column align-center justify-content">
                 <h2>Plataforma aberta de ivestimentos</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem, ipsum.</p>
@@ -193,24 +253,30 @@
                 </div>
             </div>
         </section><!-- plataforma -->
-        <section id="depoimentos" class="element-container align-center"><!-- depoimentos -->
+        <section id="depoimentos" class="element-container align-center">
+            <!-- depoimentos -->
             <h2>Alguns depoimentos</h2>
             <div id="depoimentos-content" class="flex-column">
                 <article id="depoimento1" class="flex-column align-center visible">
                     <h3>Tiago (Médico)</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nulla aperiam et explicabo obcaecati!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nulla aperiam et explicabo obcaecati!
+                    </p>
                 </article>
                 <article id="depoimento2" class="flex-column align-center">
                     <h3>Giovana (Servidora pública)</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius soluta fugiat dolor? Molestias saepe sit, sunt est eligendi quidem voluptates?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius soluta fugiat dolor? Molestias
+                        saepe sit, sunt est eligendi quidem voluptates?</p>
                 </article>
                 <article id="depoimento3" class="flex-column align-center">
                     <h3>Marcos (Administrador)</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod dicta libero architecto ratione.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod dicta libero architecto ratione.
+                    </p>
                 </article>
                 <article id="depoimento4" class="flex-column align-center">
                     <h3>Cecília (Empresária)</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia commodi quo libero deserunt pariatur! Totam explicabo quo veritatis quae voluptate blanditiis, odio quam? Quis possimus dignissimos reprehenderit exercitationem.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia commodi quo libero deserunt
+                        pariatur! Totam explicabo quo veritatis quae voluptate blanditiis, odio quam? Quis possimus
+                        dignissimos reprehenderit exercitationem.</p>
                 </article>
             </div>
             <div id="depoimentos-menu">
@@ -220,7 +286,8 @@
                 <button id="depoimentos-btn4">4</button>
             </div>
         </section><!-- depoimentos -->
-        <section id="parceiros" class="element-container align-center"><!-- parceiros -->
+        <section id="parceiros" class="element-container align-center">
+            <!-- parceiros -->
             <h2>Nossos parceiros</h2>
             <div class="flex-column">
                 <div id="brands-set1" class="flex-row visible">
@@ -250,26 +317,25 @@
         </section><!-- parceiros -->
     </main><!-- main -->
     <!-- -------------------------------------------------------------------------------------->
-    <footer><!-- footer -->
+    <footer>
+        <!-- footer -->
         <section class="footer-top site-max-width">
-            
+
         </section>
         <section class="site-max-width footer-container">
             <section class="footer-categories">
-                
+
             </section>
-              
+
         </section>
         <section class="footer-copyright">
             <p class="copyright-text">Copyright &copy - Desenvolvido por Carlos D. Santos</p>
         </section>
     </footer><!-- footer -->
 
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-  <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
