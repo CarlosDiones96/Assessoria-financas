@@ -119,6 +119,16 @@ h3{ font-size: 2rem;}
 	display: flex;
 	flex-flow: column nowrap;
 	margin: auto;
+	background:yellow;
+	width:12px;
+}
+
+#planejamento-controles button{
+	max-width:10px;
+}
+
+#planejamento-itens > div{
+	width:60%;
 }
 
 #nosso-foco{
@@ -187,6 +197,15 @@ h3{ font-size: 2rem;}
 	margin: 1rem 0;
 	font-size: 1.2rem;
 	padding: .4rem .8rem;
+}
+
+div.planejamento-conteudo{
+	display: none;
+}
+
+div.planejamento-conteudo.visible{
+	display:flex;
+	flex-flow: column nowrap;
 }
 
 #depoimentos-content > article > h3 + p{

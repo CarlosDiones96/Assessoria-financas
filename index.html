@@ -17,7 +17,7 @@
 
 <!-- 
 
-    Próximo passo: melhorar a seção #planejamento
+    Próximo passo: melhorar a seção #planejamento-controles
 -->
 
 <!-- 
@@ -127,19 +127,37 @@
             <div class="img-container">
                 <img class="planejamento-img">
             </div>
-            <div class="flex-column">
-                <div class="planejamento-conteudo">
+            <div id="planejamento-itens" class="flex-column">
+                <div id="planejamento1" class="planejamento-conteudo visible bg-green">
                     <img class="img-number">
                     <h3>Conhecer</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio.</p>
                     <button>Saiba mais</button>
                 </div>
-            </div>
-            <div id="planejamento-controles">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
+                <div id="planejamento2" class="planejamento-conteudo bg-green">
+                    <img class="img-number">
+                    <h3>Planejar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit amet.</p>
+                    <button>Saiba mais</button>
+                </div>
+                <div id="planejamento3" class="planejamento-conteudo bg-blue">
+                    <img class="img-number">
+                    <h3>Aplicar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, esse!</p>
+                    <button>Saiba mais</button>
+                </div>
+                <div id="planejamento4" class="planejamento-conteudo bg-red">
+                    <img class="img-number">
+                    <h3>Acompanhar</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit.</p>
+                    <button>Saiba mais</button>
+                </div>
+                <div id="planejamento-controles"><!-- colocar em position relative por cima dos itens -->
+                    <button id="planejamento-btn1">1</button>
+                    <button id="planejamento-btn2">2</button>
+                    <button id="planejamento-btn3">3</button>
+                    <button id="planejamento-btn4">4</button>
+                </div>
             </div>
         </section><!-- planejamento -->
         <section id="plataforma" class="element-container"> <!-- plataforma -->
