@@ -19,7 +19,7 @@
 
 <!-- 
 
-    Próximo passo: melhorar a seção #planejamento-controles
+    Próximo passo: continuar com o html da seção #footer-articles-container
 -->
 
 <!-- 
@@ -142,25 +142,16 @@
                 <img class="planejamento-img">
             </div>
             <div id="planejamento-itens" class="flex-column">
-                <div id="planejamento1" class="planejamento-conteudo visible flex bd-right-3em">
+                <div id="planejamento1" class="planejamento-conteudo visible flex">
                     <!-- #planejamento1 -->
-                    <div class="flex-column>
+                    <div>
                         <img class="img-number">
                         <h3>Conhecer</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio.</p>
                         <button>Saiba mais</button>
                     </div>
-                    <div>
-                        <div class="planejamento-controles flex-row justify-center">
-                            <!-- colocar em position relative por cima dos itens -->
-                            <button class="planejamento-btn1">1</button>
-                            <button class="planejamento-btn2">2</button>
-                            <button class="planejamento-btn3">3</button>
-                            <button class="planejamento-btn4">4</button>
-                        </div>
-                    </div>
                 </div><!-- #planejamento1 -->
-                <div id="planejamento2" class="planejamento-conteudo bg-green">
+                <div id="planejamento2" class="planejamento-conteudo">
                     <!-- #planejamento2 -->
                     <div>
                         <img class="img-number">
@@ -169,17 +160,8 @@
                             amet.</p>
                         <button>Saiba mais</button>
                     </div>
-                    <div>
-                        <div class="planejamento-controles">
-                            <!-- colocar em position relative por cima dos itens -->
-                            <button class="planejamento-btn1">1</button>
-                            <button class="planejamento-btn2">2</button>
-                            <button class="planejamento-btn3">3</button>
-                            <button class="planejamento-btn4">4</button>
-                        </div>
-                    </div>
                 </div><!-- #planejamento2 -->
-                <div id="planejamento3" class="planejamento-conteudo bg-blue">
+                <div id="planejamento3" class="planejamento-conteudo">
                     <!-- #planejamento3 -->
                     <div>
                         <img class="img-number">
@@ -188,17 +170,8 @@
                             amet consectetur adipisicing elit. Error, esse!</p>
                         <button>Saiba mais</button>
                     </div>
-                    <div>
-                        <div class="planejamento-controles">
-                            <!-- colocar em position relative por cima dos itens -->
-                            <button class="planejamento-btn1">1</button>
-                            <button class="planejamento-btn2">2</button>
-                            <button class="planejamento-btn3">3</button>
-                            <button class="planejamento-btn4">4</button>
-                        </div>
-                    </div>
                 </div><!-- #planejamento3 -->
-                <div id="planejamento4" class="planejamento-conteudo bg-red">
+                <div id="planejamento4" class="planejamento-conteudo">
                     <!-- #planejamento4 -->
                     <div>
                         <img class="img-number">
@@ -207,18 +180,18 @@
                         </p>
                         <button>Saiba mais</button>
                     </div>
-                    <div>
-                        <div class="planejamento-controles">
-                            <!-- colocar em position relative por cima dos itens -->
-                            <button class="planejamento-btn1">1</button>
-                            <button class="planejamento-btn2">2</button>
-                            <button class="planejamento-btn3">3</button>
-                            <button class="planejamento-btn4">4</button>
-                        </div>
-                    </div>
                 </div><!-- #planejamento4 -->
-            </div>
+            </div>   
         </section><!-- planejamento -->
+       
+        <div id="planejamento-controles">
+            <!-- colocar em position relative por cima dos itens -->
+            <button id="planejamento-btn1">1</button>
+            <button id="planejamento-btn2">2</button>
+            <button id="planejamento-btn3">3</button>
+            <button id="planejamento-btn4">4</button>
+        </div>
+
         <section id="plataforma" class="element-container">
             <!-- plataforma -->
             <div class="flex-column align-center justify-content">
@@ -319,14 +292,65 @@
     <!-- -------------------------------------------------------------------------------------->
     <footer>
         <!-- footer -->
-        <section class="footer-top site-max-width">
+        <section id="contact-footer" class="footer-top site-max-width">
 
         </section>
-        <section class="site-max-width footer-container">
-            <section class="footer-categories">
-
+        <section id="footer-main-container" class="site-max-width footer-container flex-row">
+            <section id="footer-brand-container" class="footer-categories">
+                <div class="flex-column">
+                    <div>
+                        <img id="footer-logo-img">
+                        <h4>Assessoria financeira</h4>
+                    </div>
+                    <p>Telefone: (21) 99999-6666</p>
+                    <div>
+                        <a href="#"><img id="facebook-logo-footer"></a>
+                        <a href="#"><img id="instagram-logo-footer"></a>
+                    </div>
+                </div>
             </section>
-
+            <section id="footer-links" class="footer-categories flex-column">
+                <h3>Links</h3>
+               <ul>
+                <li><a>Início</a></li>
+                <li><a>Quem somos</a></li>
+                <li><a>Simulações</a></li>
+                <li><a>Contato</a></li>
+                <li><a>O que fazemos</a></li>
+                <li><a>Investimentos</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Perguntas frequentes</a></li>
+               </ul>
+            </section>
+            <section id="footer-compliance-section" class="footer-categories flex-column">
+                <h3>Compliance</h3>
+                <div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni repudiandae culpa omnis officiis error quam itaque mollitia. Facilis laboriosam, animi ipsam alias officiis eaque aliquam.</p>
+                    <ul>
+                        <li><a>Código de ética </a></li>
+                        <li><a>Formulário de referência </a></li>
+                        <li><a>Compliance e controles </a></li>
+                        <li><a>Política de investimentos pessoais </a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="footer-articles-container" class="footer-categories flex-column">
+                <h3>Artigos recentes</h3>
+                <div>
+                    <article>
+                        <img>
+                        <h4></h4>
+                    </article>
+                    <article>
+                        <img>
+                        <h4></h4>
+                    </article>
+                    <article>
+                        <img>
+                        <h4></h4>
+                    </article>
+                </div>
+            </section>
         </section>
         <section class="footer-copyright">
             <p class="copyright-text">Copyright &copy - Desenvolvido por Carlos D. Santos</p>

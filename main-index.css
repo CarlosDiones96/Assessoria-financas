@@ -80,6 +80,10 @@ p.centralized-paragraph{
 	width: 30%;
 }
 
+.img-container{
+	width:598px;
+}
+
 .img-number{
 	width: 50px;
 	height: 50px;
@@ -115,7 +119,6 @@ h3{ font-size: 2rem;}
 .planejamento-img{
 	height: 302px;
 	width: 100%;
-	border-left:3em solid lightblue;
 	content: url(images/planejamento.jpg);
 }
 
@@ -123,11 +126,25 @@ h3{ font-size: 2rem;}
 	border-right:3em solid lightblue;
 }
 
-.planejamento-controles{
+#planejamento-controles{
 	display: flex;
 	flex-flow: row nowrap;
 	margin:auto;
 	background:yellow;
+}
+
+#planejamento-itens > div > div p{
+	width: 400px;
+	overflow:hidden;
+}
+
+#planejamento-itens > div {
+	width:598px;
+}
+
+#planejamento-itens > div > div button{
+	padding: .3rem .6rem;
+	font-size:1rem;
 }
 
 .planejamento-controles button{
